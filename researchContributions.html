@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NeuroEnhance Solutions</title>
+    <!--link to stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="toggleButton">
+        <hr>☰
+    </div>
+    <!-- Navbar list -->
+    <ul id="navbar">
+        <li id="navbarHeading">Where do you want to go?</li>
+        <li><a href="homePage.html">Home</a></li>
+        <li><a href="market.html">Market</a></li>
+        <li><a href="customerInfo.html">Customer Information</a></li>
+        <li><a class="active" href="researchContributions.html">Research Contributions</a></li>
+        <li><a href="scholarships.html">Scholarships</a></li>
+    </ul>
+    <!-- end of navbar list -->
+    <div id="Heading">
+        <hr>
+        <center>
+            <h1>NeuroEnhance Solutions</h1>
+        </center>
+        <hr>
+    </div>
+    <div id="bodyPanel">
+        <h1>Research Contributions</h1>
+
+        <h2>Chemical Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Development of novel extraction techniques for plant-based omega-3 fatty acids.
+            <br><br>
+            > Synthesis and characterization of hybrid omega-3 compounds.
+            <br><br>
+            > Investigation of the stability and bioavailability of the developed omega-3 product.
+        </p>
+
+        <h2>Agricultural Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Identification and cultivation of high-yielding omega-3-rich plant species.
+            <br><br>
+            > Development of sustainable farming practices for omega-3 production.
+            <br><br>
+            > Research on the environmental impact of omega-3 production.
+        </p>
+
+        <h2>Neurological Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Studies on the cognitive benefits of hybrid omega-3 supplementation.
+            <br><br>
+            > Investigation of the mechanisms of action of omega-3 fatty acids on brain function.
+            <br><br>
+            > Clinical trials to assess the efficacy of the product in improving cognitive performance.
+        </p>
+
+        <h2>Technological Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Development of advanced processing technologies for omega-3 extraction and purification.
+            <br><br>
+            > Creation of innovative delivery systems for the omega-3 product.
+            <br><br>
+            > Application of data analytics for product optimization and market analysis.
+        </p>
+
+
+    </div>
+    <!--end of div-->
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function () {
+            document.getElementById('navbar').classList.toggle('show');
+            this.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>

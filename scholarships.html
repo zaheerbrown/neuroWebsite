@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>NeuroEnhance Solutions</title>
+    <!--link to stylesheet-->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div id="toggleButton">
+        <hr>☰
+    </div>
+    <!-- Navbar list -->
+    <ul id="navbar">
+        <li id="navbarHeading">Where do you want to go?</li>
+        <li><a href="homePage.html">Home</a></li>
+        <li><a href="market.html">Market</a></li>
+        <li><a href="customerInfo.html">Customer Information</a></li>
+        <li><a href="researchContributions.html">Research Contributions</a></li>
+        <li><a class="active" href="scholarships.html">Scholarships</a></li>
+    </ul>
+    <!-- end of navbar list -->
+    <div id="Heading">
+        <hr>
+        <center>
+            <h1>NeuroEnhance Solutions</h1>
+        </center>
+        <hr>
+    </div>
+    <div id="bodyPanel">
+        <h1>Possible Scholarships</h1>
+
+        <h2>Chemical Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Bachelor's degree in Chemistry or a related field
+            <br><br>
+            > Strong foundation in organic chemistry, biochemistry, and analytical chemistry
+            <br><br>
+            > Experience in laboratory techniques and data analysis
+        </p>
+
+        <h2>Agricultural Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Bachelor's degree in Agriculture, Botany, or a related field
+            <br><br>
+            > Knowledge of plant physiology, genetics, and agronomy
+            <br><br>
+            > Experience in field research and data collection
+        </p>
+
+        <h2>Neurological Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Bachelor's degree in Neuroscience, Biology, or Psychology
+            <br><br>
+            > Understanding of brain anatomy, physiology, and neurochemistry
+            <br><br>
+            > Experience in behavioral research or clinical studies
+        </p>
+
+        <h2>Technological Sciences</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Bachelor's degree in Chemical Engineering, Food Science, or a related field
+            <br><br>
+            > Strong background in process engineering, quality control, and data analysis
+            <br><br>
+            > Proficiency in computer software and data analysis tools
+        </p>
+
+        <h2>Mechanical Engineering</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Bachelor's degree in Mechanical Engineering
+            <br><br>
+            > Strong foundation in thermodynamics, fluid mechanics, and solid mechanics
+            <br><br>
+            > Experience in design, prototyping, and manufacturing processes
+        </p>
+
+        <h2>Electrical Engineering</h2>
+        <p id="paraTemplate" style="text-align: left;">
+            > Bachelor's degree in Electrical Engineering
+            <br><br>
+            > Strong foundation in circuit theory, electromagnetic fields, and power systems
+            <br><br>
+            > Experience in electrical systems design and analysis
+        </p>
+
+
+
+    </div>
+    <!--end of div-->
+    <script>
+        document.getElementById('toggleButton').addEventListener('click', function () {
+            document.getElementById('navbar').classList.toggle('show');
+            this.classList.toggle('show');
+        });
+    </script>
+</body>
+
+</html>
